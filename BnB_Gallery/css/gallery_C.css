@@ -1,0 +1,41 @@
+.bigImg{
+	width:250px;
+	height:250px;
+	margin-right:10px;
+	float:left;
+}
+.activate{
+	opacity:1;
+}
+.thumbAll{	
+	list-style:none;
+	width:60px;
+	height:200px;
+	float:left;
+	padding:5px 5px;
+}
+.thumbAll2{	
+	list-style:none;
+	width:60px;
+	height:200px;
+	float:left;
+	padding:5px 5px;
+}
+
+.thumbLi{
+	padding-bottom:20px;
+}
+.thumbImg{		
+	width:60px;
+	height:60px;	
+}
+.thumbImg2{		
+	width:60px;
+	height:60px;	
+}
+.bigImg2{
+	width:400px;
+	height:330px;
+	margin-right:10px;
+	float:left;
+}

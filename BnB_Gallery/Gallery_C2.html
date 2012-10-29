@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>galary</title>
+<link rel="stylesheet" type="text/css" href="css/gallery_C.css" />
+</head>
+
+<body>
+	<div >
+		<div id="cSlider"></div>	
+		<div id="thumbNial"></div>
+		<div class="caption"></div>
+		<p></p>
+		<span id="upArrow" class="btn_up"></span>
+		<span id="downArrow" class="btn_down"></span>
+	</div>
+</body>
+<script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+<script type="text/javascript" src="js/gallery_C.js"></script>
+<script type="text/javascript" >
+$(function(){
+    $("#cSlider").cSlider({
+       nailMulti:false,
+		nailLine:1,
+		nailColm:4, 
+		nailULClass:"thumbAll2",
+		nailImgClass:"thumbImg2",
+		mainImgClass:"bigImg2",
+		prevBtnId:"upArrow",
+		nextBtnId:"downArrow",
+    });
+});
+</script>
+</html>
