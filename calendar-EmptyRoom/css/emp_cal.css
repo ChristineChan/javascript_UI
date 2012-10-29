@@ -1,0 +1,214 @@
+.room-type{
+	border:1px solid red;
+	width: 931px;
+	height:293px;
+}
+#left, #right{
+	position:absolute;
+	left:0px;
+	height:230px;
+	background-image: url(../img/cursor_arrow_left.png);
+	background-repeat:no-repeat;
+	background-position:center; 
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+#right{
+	left:600px;
+	background-image: url(../img/cursor_arrow_right.png);
+}
+
+.table{
+	
+}
+.cal-date{
+	position:relative;
+	z-index: 0;
+}
+
+.table td{
+	padding-right:5px;
+	padding-top:10px;
+}	
+table td div{
+	
+	font-size:14px;
+	font-weight:bold;
+	font-family:Arial;
+	color:#a0a0a0;
+	width:110px;
+	border:1px solid #F1F1F1;
+	background: #e5e5e5; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e5e5e5'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e5e5e5)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #ffffff,  #e5e5e5); /* for firefox 3.6+ */ 
+}
+.table ul{
+	margin-top:8px;
+	margin-left: 0;
+	padding-left: 0;
+}
+.table li{
+	width:120px;
+	height:37px;
+	line-height:50px;
+	margin-bottom:5px;
+	color:#e64600;
+	font-size:18px;
+	font-weight:bold;
+	font-family:Arial;
+	text-align:center;		
+	list-style:none;
+}
+
+
+.name{
+	position:absolute;
+	z-index: 39;
+	left:370px;
+	top:40px;
+	font-size:12px;
+	width:500px;
+	color:#a0a0a0
+}
+.cal-title{
+	width:350px;
+	height:50px;
+	background-color:#ff3b3b;
+	color:#fff;
+	text-align:center;
+}
+.month{
+	float:left;
+	height:50px;
+	width:298px;
+	font-family:Arial;
+	font-size: 23px;
+	line-height:50px;
+}
+.cal-prev, .cal-next{
+	top:15px;		
+	width:11px;
+	height:22px;
+	cursor: pointer;
+}
+.cal-prev{
+	float:left;
+	left:15px;	
+	margin-left:15px;
+	margin-top:15px;
+	background-image:url(../img/prev.png);
+}
+.cal-next{
+	float:right;
+	margin-right:15px;
+	margin-top:15px;
+	background-image:url(../img/next.png);
+}
+/*.table tr:first-child td:first-child div{
+	width:110px;
+	height:150px;
+	background:#e5e5e5;
+	
+}
+.table tr:first-child td:nth-child(2) div{
+	width:110px;
+	height:150px;
+	background:#e5e5e5;
+}
+.table tr:first-child td:nth-child(3) div{
+	width:110px;
+	height:150px;
+	background:#e5e5e5;
+}*/
+
+/*.table li:first-child{
+	background:#c9efd7;
+	opacity: 0.8;
+}
+.table li:nth-child(2){
+	background:#f6c3c3;
+	opacity: 0.8;
+}
+.table li:nth-child(3){
+	background:#bdd9ef;
+	opacity: 0.8;
+}*/
+.test1{
+	background:#c9efd7;
+	opacity: 0.8;
+}
+.test2{
+	background:#f6c3c3;
+	opacity: 0.8;
+}
+.test3{
+	background:#bdd9ef;
+	opacity: 0.8;
+}
+
+.roomWrapper{
+	position:relative;
+	float:left;
+	width:630px;
+	height:230px;
+	overflow:hidden;
+}
+.wrap{
+	position:absolute;
+	float:left;
+	width:630px;
+	height:230px;
+}
+.type-box{
+	position:relative;
+	padding:7px 7px 15px 7px;
+	float:left;
+	width:183px;
+	height:203px;
+	margin-left:5px;
+	-moz-box-shadow: 3px 3px 4px #000;
+	-webkit-box-shadow: 3px 3px 4px #000;
+	box-shadow: 3px 3px 4px #000;	
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+}
+.roomType{
+	padding:7px 7px 15px 7px;
+	float:left;
+	width:183px;
+	height:203px;
+	margin-left:10px;
+	-moz-box-shadow: 3px 3px 4px #000;
+	-webkit-box-shadow: 3px 3px 4px #000;
+	box-shadow: 3px 3px 4px #000;	
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+}
+.roomTypeCaption{
+	position:absolute;
+	left:7px;
+	bottom:20px;
+	width:182px;
+	height:25px;
+	opacity:0.7;
+	background-color:#ff3b3b;
+}
+.type-box img{
+	width: 182px;
+	height:182px;
+}
+.roomTypeHighlight{
+	background-color:#ff7575;
+}
+.highlight{
+	background: #f19894; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f19894', endColorstr='#f2b4b0'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#f19894), to(#f2b4b0)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #f19894,  #f2b4b0); /* for firefox 3.6+ */ 
+}
