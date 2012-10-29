@@ -4,7 +4,7 @@
 	height:293px;
 }
 #left, #right{
-	position:absolute;
+	float:left;
 	left:0px;
 	height:230px;
 	background-image: url(../img/cursor_arrow_left.png);
